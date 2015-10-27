@@ -1,0 +1,234 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 7, ../sass/screen.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 12, ../sass/screen.scss */
+body {
+  background: #626462 url(../images/photo3.jpg) fixed;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* line 19, ../sass/screen.scss */
+body > .container {
+  background: #fff;
+  padding: 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 27, ../sass/screen.scss */
+.nojs {
+  display: none;
+}
+
+/* line 32, ../sass/screen.scss */
+.navbar-form input {
+  width: 110px;
+}
+
+/* line 37, ../sass/screen.scss */
+.hero-unit {
+  padding: 20px 60px 30px;
+}
+/* line 39, ../sass/screen.scss */
+.hero-unit h1 {
+  margin-bottom: 5px;
+}
+
+/* line 43, ../sass/screen.scss */
+.carousel-control {
+  top: 47%;
+}
+
+/* line 47, ../sass/screen.scss */
+.carousel-inner .item {
+  margin: 0 20px;
+}
+
+/* line 52, ../sass/screen.scss */
+h1 {
+  margin-bottom: 30px;
+}
+
+/* line 57, ../sass/screen.scss */
+.projects h2 {
+  font-size: 18px;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+/* line 63, ../sass/screen.scss */
+.projects img {
+  margin-bottom: 20px;
+}
+/* line 66, ../sass/screen.scss */
+.projects .description {
+  height: 60px;
+  overflow: hidden;
+}
+/* line 70, ../sass/screen.scss */
+.projects .topbutton {
+  margin-top: 30px;
+}
+/* line 73, ../sass/screen.scss */
+.projects .span2 {
+  /*width: 166px !important;*/
+}
+
+/* line 79, ../sass/screen.scss */
+.frontprojects ul {
+  -moz-column-count: 2;
+  /* Firefox */
+  -webkit-column-count: 2;
+  /* Safari and Chrome */
+  column-count: 2;
+  margin: 0;
+}
+
+/* line 88, ../sass/screen.scss */
+.gallery img {
+  height: 60px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 96, ../sass/screen.scss */
+.footer {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 102, ../sass/screen.scss */
+.connect a {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+/* line 107, ../sass/screen.scss */
+.connect .facebook {
+  background: url(../images/social_media/facebook.png) no-repeat;
+}
+/* line 110, ../sass/screen.scss */
+.connect .twitter {
+  background: url(../images/social_media/twitter.png) no-repeat;
+}
+/* line 113, ../sass/screen.scss */
+.connect .youtube {
+  background: url(../images/social_media/youtube.png) no-repeat;
+}
+
+/* line 118, ../sass/screen.scss */
+.dropdown-backdrop {
+  position: static;
+}
+
+/* line 123, ../sass/screen.scss */
+.frontevents ul {
+  margin: 0;
+}
+/* line 125, ../sass/screen.scss */
+.frontevents ul .event {
+  list-style-type: none;
+  overflow: hidden;
+}
+/* line 128, ../sass/screen.scss */
+.frontevents ul .event .eventDate {
+  width: 55px;
+  height: 20px;
+  float: left;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+/* line 135, ../sass/screen.scss */
+.frontevents ul .event .value {
+  width: 70%;
+  float: left;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+@media (min-width: 585px) and (max-width: 767px) {
+  /* line 146, ../sass/screen.scss */
+  .frontevents ul {
+    -moz-column-count: 2;
+    /* Firefox */
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+    column-count: 2;
+    margin: 0;
+  }
+}
+@media (max-width: 979px) {
+  /* line 156, ../sass/screen.scss */
+  body {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  /* line 160, ../sass/screen.scss */
+  #myCarousel {
+    display: none;
+  }
+}
+/**
+  * Always show submenu on hover, instead of click. 
+  */
+/* line 169, ../sass/screen.scss */
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+/* line 173, ../sass/screen.scss */
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+/* line 181, ../sass/screen.scss */
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+/* line 185, ../sass/screen.scss */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* line 189, ../sass/screen.scss */
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+  margin-top: 0;
+}
+
+/* line 193, ../sass/screen.scss */
+.navbar .sub-menu:before {
+  border-bottom: 7px solid transparent;
+  border-left: none;
+  border-right: 7px solid rgba(0, 0, 0, 0.2);
+  border-top: 7px solid transparent;
+  left: -7px;
+  top: 10px;
+}
+
+/* line 201, ../sass/screen.scss */
+.navbar .sub-menu:after {
+  border-top: 6px solid transparent;
+  border-left: none;
+  border-right: 6px solid #fff;
+  border-bottom: 6px solid transparent;
+  left: 10px;
+  top: 11px;
+  left: -6px;
+}
